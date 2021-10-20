@@ -106,7 +106,7 @@ def obfuscate_ip(ip):
 
 ip = sys.argv[1]
 try:
-      print("Entered IP: ",ip)
+      print("Entered IP in IPv4 format: ",ip)
       int(ipaddress.ip_address(ip))
       obfuscate_ip(ip)
 except ValueError:
