@@ -3,7 +3,7 @@ Simple script you can use to convert and obfuscate any IP address of any host.
 
 ## Usage
 ```
-usage: IP_obfuscator.py <ip>
+usage: python3 IP_obfuscator.py <ip>
 
 ```
 
